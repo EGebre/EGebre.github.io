@@ -1,0 +1,39 @@
+body{
+  background-color: #ADADAD;
+}
+
+h1{
+  font-family: Perpetua, Cairo,Geneva, "Times New Roman";
+  font-size: 30pt;
+  color: #557A95;
+}
+
+h2{
+  font-family: Garamond, Cairo,Geneva, "Times New Roman";
+  font-size: 16pt;
+  color: #557A95;
+}
+
+h3{
+  font-family: Garamond, Cairo,Geneva, "Times New Roman";
+  font-size: 12pt;
+  color: white;
+  font-weight: lighter;
+}
+
+div.intro span{
+  color: yellow;
+}
+
+div.fact_2  span{
+  font-style: italic;
+  letter-spacing: 1.5px;
+}
+
+div.fact_2 a{
+  color: red;
+}
+
+div class.fact_4{
+  font-style: italic;
+}
