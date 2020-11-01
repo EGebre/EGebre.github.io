@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header">
+    <p class="mainTitle">
+      <h1>
+        Workshop Registration
+      </h1>
+  </div>
+  
+  <div class="titleInfo">
+    <h2>
+      <p class="secondTitle">
+        Register now while seats are available!
+      </p>
+    </h2>
+  </div>
+	<form action="#">
+    <h3>
+    
+      <div id="firstSection">
+      
+        <p class="firstName"> First Name <em> * </em> <input name="userFirstName" required/><p>
+        <p class="lastName"> Last Name <em> * </em> <input name="userLastName" required/><p>
+        <p class="company"> Company/Institution <em> * </em> <input name="company" required/><p>
+
+
+        <p class = "address"> Address <em> * </em> <br />
+        <textarea name="comments">  </textarea> </p>
+
+
+        <p class="city"> City <input name="city"/><p>
+
+        <p class="state" >
+          State/Province/Region
+          <select name="state">
+            <option> IA </option>
+            <option> MD </option>
+            <option> VI </option>
+            <option> DC </option>
+          </select>
+        </p>
+
+        <p class="country">
+          Country
+          <select name="country">
+            <option> United States </option>
+            <option> China </option>
+            <option> Ethiopia </option>
+            <option> Eriteria </option>
+          </select>
+        </p>
+
+        <p class="email"> Email <em> * </em> <input name="email" required/><p>
+        <p class="phoneNumber"> Phone Number <em> * </em> <input name="phoneNumber" required/><p>
+      
+      </div>
+
+      <div id="secondSection">
+        
+        <div class="mealTitle">
+          <p class="lunch">
+            <h2>
+              Lunch
+            <h2>
+          </p>
+        </div>
+          
+          <p class="meal" >
+            Meal Preference
+            <select name="state">
+              <option> Vegeterian </option>
+              <option> Vegan </option>
+              <option> Non-Vegetarian </option>
+            </select>
+          </p>
+          
+        <div class="paymentTitle">
+          <p class="paymentSectionTitle">
+            <h2>
+              Payment Details
+            <h2>
+          </p>
+        </div>        
+          
+          
+      
+
+      
+          <p class="payment"> Payment Mode 
+            <label><input type="radio" name="paymnent"/ value="Cash"> Cash</label>
+            <label><input type="radio" name="paymnent" value="Cheque"/> Cheque</label>
+            <label><input type="radio" name="paymnent" value="Demand Draft"/> Demand Draft </label>
+          </p>
+
+          <p class="checkNo"> DD/Check No. <input name="checkNumber"/><p>
+          <p class="drawnOn"> Drawn On (Bank Name) <input name="drawnOn"/><p>
+          <p class="payableAt"> Payable at <input name="payableAt"/><p>
+      
+      </div>      
+    </h3>
+      
+      <div id="footer">
+      <p class="submitReset"> <input type="submit" /><input type="reset" /> </p>
+      </div>
+
+      
+  </form>
+
+</body>
+
+</html>

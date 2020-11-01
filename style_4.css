@@ -1,0 +1,22 @@
+/* div{
+  border-width: 1px;
+  border-style: dashed;
+  border-color: black;
+} */
+
+#header{
+  background-color: #ADADAD;
+}
+
+#firstSection {
+  background-color: #ADADAD;
+  width: 50%;
+}
+
+#secondSection{
+  width: 50%;
+}
+
+#footer{
+  background-color: #ADADAD;
+}
