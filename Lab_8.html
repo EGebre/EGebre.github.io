@@ -6,68 +6,68 @@
     <title>Title</title>
     <script>
 
-        //Exercise 1
-        String.prototype.filter = function(str) {
-            return this.replaceAll(str, "")
-        }
+    //     //Exercise 1
+    //     String.prototype.filter = function(str) {
+    //         return this.replaceAll(str, "")
+    //     }
 
-        console.log("This Should be removed from This sentence".filter('This'));
+    //     console.log("This Should be removed from This sentence".filter('This'));
 
 
 
-        //Exercise 2
-        Array.prototype.bubbleSort = function() {
+    //     //Exercise 2
+    //     Array.prototype.bubbleSort = function() {
             
-             return this.sort();
-        }
+    //          return this.sort();
+    //     }
 
-        console.log([6,4,0, 3,-2,1].bubbleSort());
+    //     console.log([6,4,0, 3,-2,1].bubbleSort());
 
 
 
-        //Exercise 3a
-        function Person(name){
-           this.name = name;
-        }
+    //     //Exercise 3a
+    //     function Person(name){
+    //        this.name = name;
+    //     }
 
-        function Teacher(name, subject){
-            Person.call(this, name);
-            this.subject = subject;
-        }
+    //     function Teacher(name, subject){
+    //         Person.call(this, name);
+    //         this.subject = subject;
+    //     }
 
-        Teacher.prototype = Object.create(Person.prototype);
-        Teacher.prototype.teach = function (){
-            console.log(this.name + ' is now teaching ' + this.subject)
-        }
+    //     Teacher.prototype = Object.create(Person.prototype);
+    //     Teacher.prototype.teach = function (){
+    //         console.log(this.name + ' is now teaching ' + this.subject)
+    //     }
 
-        const teacher1 = new Teacher("Tina", "WAP");
-        teacher1.teach();
+    //     const teacher1 = new Teacher("Tina", "WAP");
+    //     teacher1.teach();
 
 
         
-        //Exercise 3b
-       const Person = {
-           name : '',
-           setName : function(name){
-               this.name = name;
-           }
-        }
+    //     //Exercise 3b
+    //    const Person = {
+    //        name : '',
+    //        setName : function(name){
+    //            this.name = name;
+    //        }
+    //     }
 
-        const Teacher = Object.create(Person);
+    //     const Teacher = Object.create(Person);
         
-        Teacher.setSubject = function(subject){
-            this.subject = subject;
-        }
-        Teacher.teach = function(){
-            console.log(this.name + ' is now teaching ' + this.subject);
-        }
+    //     Teacher.setSubject = function(subject){
+    //         this.subject = subject;
+    //     }
+    //     Teacher.teach = function(){
+    //         console.log(this.name + ' is now teaching ' + this.subject);
+    //     }
 
-        const t1 = Object.create(Teacher);
+    //     const t1 = Object.create(Teacher);
 
-        t1.setName("Tina");
-        t1.setSubject("WAP");
+    //     t1.setName("Tina");
+    //     t1.setSubject("WAP");
 
-        t1.teach();
+    //     t1.teach();
 
 
 
